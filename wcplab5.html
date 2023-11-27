@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+<style type="text/css">
+	
+body {
+  background-image:;
+}
+</style>
+<body>
+<h1>Sign-Up Form for Food Blog</h1>
+	<strong>This will be used to sign up for a Food Blog</strong>
+	<br>
+	<br>
+<form method="post" action="https://handlers.education.launchcode.org/request-parrot">
+	<label for="First Name"><strong>First name:</strong></label>
+	<input name="First Name" type="text" required="required" id="firstname">
+	<br>
+	<label for="Last Name"><strong>Last Name</strong></label>
+	<input name="Last Name" type="text" required="required" id="lastname">
+	<br>
+  <label for="Username"><strong>Username</strong></label>
+  <input name="Username" type="text" required="required" pattern="[A-Za-z]{6,10}">
+	<br>
+  <label for="Password"><strong>Password</strong></label>
+  <input name="Password" type="password" required="required" pattern="[0-9A-Za-z]{6,10}">
+	<br>
+  <label for="Date of Birth"><strong>Date of Birth</strong></label>
+  <input name="Date of Birth" type="date" required="required">
+	<br>
+  <label for="Phone Number"><strong>Phone Number</strong></label>
+  <input name="Phone Number" type="tel" required="required" pattern="[0-9] {10-12}">
+	<br>
+  <label for="Email"><strong>Email</strong></label>
+  <input name="Email" type="email" required="required" minlength="8">
+  <br>
+  <label for="Personal Website"><strong>Personal Website</strong></label>
+  <input name="Personal Website" type="url" value="http://www.">
+<br>
+	  <strong>Which (In your Opinion) is better?</strong>
+	  <br>
+	   <label>
+	     <input type="checkbox" name="Interests" value="Mcdonalds" id="Interests_0">
+	     Mcdonalds</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Interests" value="Popeyes" id="Interests_1">
+	     Popeyes</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Interests" value="Wendys" id="Interests_2">
+	     Wendys</label>
+	   <br>
+	   <label>
+	     <input type="checkbox" name="Interests" value="Chick-fil-a" id="Interests_3">
+	     Chick-fil-a</label>
+	   <br>
+  <input type="reset"><input type="submit">
+	</form>
+</body>
+</html>
